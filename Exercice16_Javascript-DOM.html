@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 16</title>
+    <style>
+    /*CSS si nécessaire*/
+    </style>
+</head>
+<body>
+    <main>
+        <h1 id="h1bis">Hello World</h1>
+        <p id="p1">Info 1</p>
+        <p class="info" >Info 2</p>
+        <p class="info" >Info 3</p>
+    </main>
+    <script>
+        console.log("Salut tout le monde !")
+        // alert("Salut !")
+
+        let elements = document.getElementsByTagName("p");
+        let p1 = document.getElementById("p1");
+        let infos = document.getElementsByClassName("info")
+        let h1 = document.getElementById("h1bis")
+
+        console.log(elements);
+        console.log(p1);
+        console.log(infos);
+        console.log(h1);
+        
+        
+        console.log(["Pommme", "Poire", "Banane"].filter( x => x === "Banane") )
+        
+        p1.textContent = "Un nouveau texte"
+        h1.textContent = "J'aime le Javascript"
+
+// Votre code ici
+    </script>
+</body>
+</html>

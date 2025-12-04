@@ -7,3 +7,7 @@ main {
     margin: auto;
     max-width: 800px;
 }
+
+h1 {
+    font-size: normal;
+}

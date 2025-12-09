@@ -1,0 +1,11 @@
+body {
+    height: 300vh; /* Pour permettre le scroll */
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 10px;
+    background-color: blue;
+    width: 0%;
+}
